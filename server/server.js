@@ -58,7 +58,7 @@ passport.use(new WebAppStrategy({
     clientId: '706da04b-3852-4034-b110-03f4722ca00d',
     secret: 'NzI0MGFkNTEtODVhZC00YTY3LWI5YmItZDZlYjNlZGIwOWU2',
     oauthServerUrl: 'https://eu-gb.appid.cloud.ibm.com/oauth/v4/26c27c27-3462-4762-9c08-6bbba7f66de2',
-    redirectUri: 'http://localhost:3001/home.html', // https: //grab-scrap.eu-gb.mybluemix.net/home.html' //  + CALLBACK_URL   s1 login=>[]
+    redirectUri: 'http://grab-scrap.herokuapp.com/home.html', // https: //grab-scrap.eu-gb.mybluemix.net/home.html' //  + CALLBACK_URL   s1 login=>[]
 }));
 app.get('/home.html', passport.authenticate(WebAppStrategy.STRATEGY_NAME, {
     successRedirect: '/home',

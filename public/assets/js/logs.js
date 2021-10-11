@@ -13,7 +13,7 @@ $().ready(() => {
         } else {
             $('#login ').show();
             $('#logout ').hide();
-            location.replace('http://localhost:3001/home');
+            location.replace('http://grab-scrap.herokuapp.com/home');
             // https://grab-scrap.eu-gb.mybluemix.net/home.html');
             /* $('a').on('click', function(event) {
                 event.preventDefault();
