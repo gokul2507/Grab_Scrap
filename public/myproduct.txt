@@ -1,0 +1,14 @@
+<div class="col-md-4">
+    <div class="product-item ">
+        <img class="imglink" src="" alt="img">
+        <div class="down-content ">
+            <a class="prod-01-link">
+                <h4 class="title">g</h4>
+            </a>
+            <h6 class="price">g</h6>
+            <p class="desc"><br></p>
+            <a href="#" class="filled-button editbut">Edit</a>
+            <a href="#" class="filled-button deletebut">Delete</a>
+        </div>
+    </div>
+</div>

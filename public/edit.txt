@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>GrabScrap</title>
+    <link rel="icon" href="favicon.ico.ico">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <script type="text/javascript">
+        function func() {
+            if (window.history.previous) {
+                window.location.href = 'home.html';
+            }
+        }
+    </script>
+</head>
+
+<body onload="func()">
+
+    <!-- ** Preloader Start ** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ** Preloader End ** -->
+
+    <!-- Header -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <img class="lo" src="logobg.png" alt="">
+                <a class="navbar-brand" href="/home">
+                    <h2>Grab<em>Scrap</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/products">Products</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sell.html">Sell</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="login" href="/appid/login">Log In</a>
+                            <a class="nav-link" id="logout" style="display:none" href=" /appid/logout">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading sell-heading header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content">
+                        <h4>be a part of creating</h4>
+                        <h2>a sustainable world</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="send-message">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>Product Registration form</h2>
+                        <ul>
+                            <!--name=sdfg&price=+sdfs&product=+sdfsdf&company=sdfg&phpno=fgfgh&email=g%40gmail.com&street=no.5+chennai&city=chennai&state=tamil+nadu&postal=58467&q14_Description+of+product%2Fservice+being+displayed+=&filename+=-->
+                            <form action="/add/product" enctype="multipart/form-data">
+                                <!--/add/product-->
+                                <!--success.html-->
+                                <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_5">
+                                    <label class="form-label form-label-top" id="label_5" for="input_5"> Product Name*
+                                    </label>
+                                    <div id="cid_5" class="form-input-wide" data-layout="half">
+                                        <input type="text" id="input_5"  name="product" data-type="input-textbox" class="form-textbox pname" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_5" required="" />
+                                    </div>
+                                </li>
+                                <li class=" form-line form-line-column form-col-2" data-type="control_textbox" id="id_5">
+                                    <label class="form-label form-label-top" id="label_5" for="input_5"> Price*
+                                    </label>
+                                    <div id="cid_5" class="form-input-wide" data-layout="half">
+                                        <input  type="text" id="input_5" name="price" data-type="input-textbox" class="form-textbox price" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_5" required="" />
+                                    </div>
+                                </li>
+                                <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_11">
+                                    <label class="form-label form-label-top" id="label_11" for="input_11"> Phone
+                                        Number* </label>
+                                    <div id="cid_11" class="form-input-wide" data-layout="half">
+                                        <input type="text"  id="input_11" name="phpno" data-type="input-textbox" class="form-textbox phone" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_11" required="" />
+                                    </div>
+                                </li>
+
+                                <li class="form-line" data-type="control_address" id="id_26">
+                                    <label class="form-label form-label-top form-label-auto" id="label_26" for="input_26_addr_line1">Street* </label>
+                                    <div id="cid_26" class="form-input-wide" data-layout="full">
+                                        <div summary="" class="form-address-table jsTest-addressField">
+                                            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                                                    <span class="form-sub-label-container" style="vertical-align:top">
+                                                        <input type="text" id="input_26_addr_line1" name="street"
+                                                            class="form-textbox form-address-line street"
+                                                            data-component="address_line_1" 
+                                                            aria-labelledby="label_26 sublabel_26_addr_line1"
+                                                            required="" />
+                                                    </span>
+                                                </span>
+                                            </div>
+
+                                            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                <span class="form-address-line form-address-city-line jsTest-address-lineField">
+                                                    <span class="form-sub-label-container" style="vertical-align:top">
+                                                        <input type="text" id="input_26_city" name="city"
+                                                            class="form-textbox form-address-city city" 
+                                                            data-component="city" 
+                                                            aria-labelledby="label_26 sublabel_26_city" required="" />
+                                                        <label class="form-sub-label" for="input_26_city"
+                                                            id="sublabel_26_city" style="min-height:13px"
+                                                            aria-hidden="false"> City* </label>
+                                                    </span>
+                                                </span>
+                                                <span class="form-address-line form-address-state-line jsTest-address-lineField">
+                                                    <span class="form-sub-label-container" style="vertical-align:top">
+                                                        <input type="text" id="input_26_state" name="state"
+                                                            class="form-textbox form-address-state state" 
+                                                            data-component="state" 
+                                                            aria-labelledby="label_26 sublabel_26_state" required="" />
+                                                        <label class="form-sub-label" for="input_26_state"
+                                                            id="sublabel_26_state" style="min-height:13px"
+                                                            aria-hidden="false"> State*</label>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                <span class="form-address-line form-address-zip-line jsTest-address-lineField">
+                                                    <span class="form-sub-label-container" style="vertical-align:top">
+                                                        <input type="text" id="input_26_postal" name="postal"
+                                                            class="form-textbox form-address-postal postal" 
+                                                            data-component="zip" 
+                                                            aria-labelledby="label_26 sublabel_26_postal"
+                                                            required="" />
+                                                        <label class="form-sub-label" for="input_26_postal"
+                                                            id="sublabel_26_postal" style="min-height:13px"
+                                                            aria-hidden="false"> Pin Code* </label>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="form-line" data-type="control_textarea" id="id_14">
+                                    <label class="form-label form-label-top" id="label_14" for="input_14">
+                                        Description of product*</label>
+                                    <div id="cid_14" class="form-input-wide" data-layout="full">
+                                        <textarea id="input_14"  class="form-textarea desc" name="Description" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_14" required></textarea>
+                                    </div>
+                                </li>
+                                <input type="hidden" name="uid" class="uid" required>
+                                <li class="form-line" data-type="control_button" id="id_24">
+                                    <div id="cid_24" class="form-input-wide" data-layout="full">
+                                        <div data-align="center" class="form-buttons-wrapper form-buttons-center jsTest-button-wrapperField">
+                                            <button id="input_24" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+                                                Submit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language="text/Javascript">
+        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+        function clearField(t) { //declaring the array outside of the
+            if (!cleared[t.id]) { // function makes it static and global
+                cleared[t.id] = 1; // you could use true and false, but that's more typing
+                t.value = ''; // with more chance of typoso
+                t.style.color = '#fff';
+            }
+        }
+    </script>
+
+    <!--Changes-->
+    <script src="assets/js/logs.js"></script>
+</body>
+
+</html>

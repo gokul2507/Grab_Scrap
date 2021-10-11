@@ -1,0 +1,92 @@
+{
+  "application_name": {
+    "searchPatterns": [
+      "cloudfoundry:$.application_name",
+      "env:K_SERVICE"
+    ]
+  },
+  "appid_apikey": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.apikey",
+      "file:/server/localdev-config.json:$.appid_apikey"
+    ]
+  },
+  "appid_appidServiceEndpoint": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.appidServiceEndpoint",
+      "file:/server/localdev-config.json:$.appid_appidServiceEndpoint"
+    ]
+  },
+  "appid_clientId": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.clientId",
+      "file:/server/localdev-config.json:$.appid_clientId"
+    ]
+  },
+  "appid_discoveryEndpoint": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.discoveryEndpoint",
+      "file:/server/localdev-config.json:$.appid_discoveryEndpoint"
+    ]
+  },
+  "appid_iam_apikey_description": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.iam_apikey_description",
+      "file:/server/localdev-config.json:$.appid_iam_apikey_description"
+    ]
+  },
+  "appid_iam_apikey_name": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.iam_apikey_name",
+      "file:/server/localdev-config.json:$.appid_iam_apikey_name"
+    ]
+  },
+  "appid_iam_role_crn": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.iam_role_crn",
+      "file:/server/localdev-config.json:$.appid_iam_role_crn"
+    ]
+  },
+  "appid_iam_serviceid_crn": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.appid_iam_serviceid_crn"
+    ]
+  },
+  "appid_managementUrl": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.managementUrl",
+      "file:/server/localdev-config.json:$.appid_managementUrl"
+    ]
+  },
+  "appid_oauthServerUrl": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.oauthServerUrl",
+      "file:/server/localdev-config.json:$.appid_oauthServerUrl"
+    ]
+  },
+  "appid_profilesUrl": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.profilesUrl",
+      "file:/server/localdev-config.json:$.appid_profilesUrl"
+    ]
+  },
+  "appid_secret": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.secret",
+      "file:/server/localdev-config.json:$.appid_secret"
+    ]
+  },
+  "appid_tenantId": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.tenantId",
+      "file:/server/localdev-config.json:$.appid_tenantId"
+    ]
+  },
+  "appid_serviceInfo": {
+    "searchPatterns": [
+      "cloudfoundry:$['AppID'][0].credentials.serviceInfo",
+      "file:/server/localdev-config.json:$.appid_serviceInfo"
+    ]
+  }
+}
